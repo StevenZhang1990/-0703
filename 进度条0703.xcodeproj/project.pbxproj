@@ -15,6 +15,7 @@
 		775CE30F20EB7AA300B7FC39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CE30E20EB7AA300B7FC39 /* main.m */; };
 		775CE31920EB7AA400B7FC39 /* ___0703Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CE31820EB7AA400B7FC39 /* ___0703Tests.m */; };
 		775CE32420EB7AA400B7FC39 /* ___0703UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CE32320EB7AA400B7FC39 /* ___0703UITests.m */; };
+		775CE33B20EB7D9D00B7FC39 /* ProgressBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 775CE33A20EB7D9D00B7FC39 /* ProgressBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		775CE31F20EB7AA400B7FC39 /* 进度条0703UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "进度条0703UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775CE32320EB7AA400B7FC39 /* ___0703UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___0703UITests.m"; sourceTree = "<group>"; };
 		775CE32520EB7AA400B7FC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775CE33920EB7D9D00B7FC39 /* ProgressBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressBtn.h; sourceTree = "<group>"; };
+		775CE33A20EB7D9D00B7FC39 /* ProgressBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				775CE30A20EB7AA300B7FC39 /* LaunchScreen.storyboard */,
 				775CE30D20EB7AA300B7FC39 /* Info.plist */,
 				775CE30E20EB7AA300B7FC39 /* main.m */,
+				775CE33920EB7D9D00B7FC39 /* ProgressBtn.h */,
+				775CE33A20EB7D9D00B7FC39 /* ProgressBtn.m */,
 			);
 			path = "进度条0703";
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				775CE30420EB7AA100B7FC39 /* ViewController.m in Sources */,
+				775CE33B20EB7D9D00B7FC39 /* ProgressBtn.m in Sources */,
 				775CE30F20EB7AA300B7FC39 /* main.m in Sources */,
 				775CE30120EB7AA100B7FC39 /* AppDelegate.m in Sources */,
 			);

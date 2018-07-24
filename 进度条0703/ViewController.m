@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "ProgressBtn.h"
+
 
 @interface ViewController ()
+
+@property (nonatomic , strong) ProgressBtn * btn;
 
 @end
 
@@ -16,7 +20,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.btn = [[ProgressBtn alloc] init];
+    self.btn.frame = CGRectMake(100, 200, 200, 100);
+    self.btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.btn];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self progressInt];
+}
+
+- (void)progressInt {
+    
+    CGFloat a = 0.0;
+    
+    for (NSInteger i=0; i<=100; i++) {
+        
+        a=0.01*i;
+        
+        self.btn.progress = a;
+    }
 }
 
 
